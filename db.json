@@ -1,0 +1,71 @@
+[{
+        "time": "10:00",
+        "title": "Morning Procedure",
+        "items": [
+            "Solution A – 5 mL",
+            "Compound B or C – 250 mg",
+            "Mediolab Reagent – 2 drops",
+            "Catalyst (CATPURE) – 5 mg"
+        ],
+        "notes": ["Mix in sterile container", "Perform in laminar flow"],
+        "macronutrients": {
+            "CHO": "26g",
+            "PRO": "25g",
+            "FAT": "1.3g"
+        },
+        "intensity": "215 mAU"
+    },
+    {
+        "time": "13:00",
+        "title": "Midday Procedure",
+        "items": [
+            "Solution B – 10 mL",
+            "Compound D or E – 150 mg",
+            "ClearMix Reagent – 3 drops",
+            "Stabilizer (STABILAB) – 2 mg"
+        ],
+        "notes": ["Shake for 3 minutes before applying"],
+        "macronutrients": {
+            "CHO": "26g",
+            "PRO": "25g",
+            "FAT": "1.3g"
+        },
+        "intensity": "189 mAU"
+    },
+    {
+        "time": "16:30",
+        "title": "Thermal Test",
+        "items": [
+            "Thermal Solution – 7 mL",
+            "Agent B or C – 300 mg",
+            "Neutralizer Drops – 2 drops",
+            "Temperature Control – 1 unit",
+            "Conductor (HEATPULSE) – 6 mg"
+        ],
+        "notes": ["Use reinforced nitrile gloves"],
+        "macronutrients": {
+            "CHO": "26g",
+            "PRO": "25g",
+            "FAT": "1.3g"
+        },
+        "intensity": "202 mAU"
+    },
+    {
+        "time": "18:00",
+        "title": "Cycle Finalization",
+        "items": [
+            "Washing Solution – 8 mL",
+            "Compound X or Z – 200 mg",
+            "Final Neutralizer – 1 drop",
+            "Drying Agent – 0.2 mL",
+            "Catalyst (ENDO-CLEAN) – 4 mg"
+        ],
+        "notes": ["Store sample at 4°C"],
+        "macronutrients": {
+            "CHO": "26g",
+            "PRO": "25g",
+            "FAT": "1.3g"
+        },
+        "intensity": "210 mAU"
+    }
+]
