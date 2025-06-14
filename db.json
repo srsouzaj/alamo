@@ -354,44 +354,6 @@
         }
       ],
       "intensity": "210 mAU"
-    },
-    {
-      "id": "b18b",
-      "hour": "21:22",
-      "title": "teste",
-      "intensity": "teste",
-      "notes": "teste",
-      "items": [
-        {
-          "name": "teste",
-          "quantity": "teste"
-        }
-      ],
-      "macronutrients": [
-        {
-          "name": "CHO",
-          "quantity": "teste"
-        }
-      ]
-    },
-    {
-      "id": "fc22",
-      "hour": "21:23",
-      "title": "teste",
-      "intensity": "tete",
-      "notes": "teste",
-      "items": [
-        {
-          "name": "teste",
-          "quantity": "teste"
-        }
-      ],
-      "macronutrients": [
-        {
-          "name": "PTN",
-          "quantity": "teste"
-        }
-      ]
     }
   ]
 }

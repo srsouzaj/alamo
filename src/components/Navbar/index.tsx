@@ -26,8 +26,9 @@ const Navbar = () => {
           Tarefas
         </Link>
         <aside className="flex gap-2 items-center">
-          <Link href={"/"}>
+          <Link className="relative" href={"/"}>
             <Notification width={17} height={17} />
+            <span className="absolute rounded-full bottom-[-1px] right-[-1px] bg-[#15BE53] w-1.5 h-1.5 block" />
           </Link>
           <Link href={"/"}>
             <Info width={17} height={17} />
