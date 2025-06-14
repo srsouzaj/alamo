@@ -27,7 +27,7 @@
 
 ## 🧪 Teste de Responsividade
 
-Recomenda-se o uso da ferramenta Responsively App para verificar o comportamento do layout em múltiplas resoluções de tela. Essa etapa é fundamental para garantir uma experiência consistente em diferentes dispositivos.
+Recomenda-se o uso da ferramenta [Responsively App](http://responsively.app/download) para verificar o comportamento do layout em múltiplas resoluções de tela. Essa etapa é fundamental para garantir uma experiência consistente em diferentes dispositivos.
 
 ## 📦 Instalação e Execução
 
