@@ -1,17 +1,14 @@
 "use client";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useMemo, useCallback, useState } from "react";
+import { useMemo } from "react";
 import { OutRoutineSchema } from "../components/Form/Types/schema/routines.schema";
 import { OutRoutineTypes } from "../components/Form/Types/interface/routines.interface";
 import transformInitialValues from "../components/Form/utils/defaultValues";
 import useCriarRotina from "@/app/pages/Produto/Hooks/useCriarRotina";
 
-export const useOutRoutineForm = () => {
-  const [isOpen, setIsOpen] = useState(false);
+export const useFormModalRotina = () => {
   const { criarRotina } = useCriarRotina();
-
-  const handleModal = useCallback((value: boolean) => setIsOpen(value), []);
 
   const defaultValues: OutRoutineTypes = useMemo(
     () => transformInitialValues(),
@@ -30,15 +27,8 @@ export const useOutRoutineForm = () => {
   } = methods;
 
   const onSubmit = async (data: OutRoutineTypes) => {
-    try {
-      console.log("OutRoutine:", data);
-      criarRotina(data);
-      //   methods.reset();
-      await new Promise((res) => setTimeout(res, 300));
-      //   handleModal(false);
-    } catch (err) {
-      console.error("Erro ao salvar rotina:", err);
-    }
+    criarRotina(data);
+    methods.reset();
   };
 
   return {
@@ -46,7 +36,5 @@ export const useOutRoutineForm = () => {
     handleSubmit,
     isSubmitting,
     onSubmit,
-    isOpen,
-    handleModal,
   };
 };

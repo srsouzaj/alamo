@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import {
   DialogClose,
@@ -13,10 +15,11 @@ import Divider from "@/components/divider";
 import Drugs from "./drugs";
 import Macro from "./macro";
 import Notes from "./notes";
-import { useOutRoutineForm } from "../../Hooks/useOutRoutineForm";
+import { useFormModalRotina } from "../../Hooks/useFormModalRotina";
 
 const FormAddRoutines = () => {
-  const { methods, handleSubmit, isSubmitting, onSubmit } = useOutRoutineForm();
+  const { methods, handleSubmit, isSubmitting, onSubmit } =
+    useFormModalRotina();
 
   return (
     <DialogContent className="sm:max-w-[600px]">
