@@ -102,13 +102,11 @@ const Macro = () => {
           Adicionar Macronutriente
         </Button>
       ) : (
-        <>
-          <p className="text-sm text-gray-500">
-            Todos os macronutrientes já foram adicionados.
-          </p>
-          <ErrorMessage message={errors?.macronutrients?.message} />
-        </>
+        <p className="text-xs font-thin text-gray-500">
+          Todos os macronutrientes já foram adicionados.
+        </p>
       )}
+      <ErrorMessage message={errors?.macronutrients?.message} />
     </div>
   );
 };

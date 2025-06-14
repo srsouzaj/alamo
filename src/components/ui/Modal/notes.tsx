@@ -19,7 +19,7 @@ const Notes = () => {
         placeholder="Agitar por 3 minutos antes de aplicar"
       />
 
-      <ErrorMessage message={errors?.macronutrients?.message} />
+      <ErrorMessage message={errors?.notes?.message} />
     </div>
   );
 };

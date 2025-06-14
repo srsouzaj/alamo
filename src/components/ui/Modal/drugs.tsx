@@ -51,10 +51,9 @@ const Drugs = () => {
           </div>
         ))
       ) : (
-        <>
-          <p className="text-sm text-gray-500 mb-2">Nenhum item adicionado.</p>
-          <ErrorMessage message={errors?.items?.message} />
-        </>
+        <p className="text-xs font-thin text-gray-500 mb-2">
+          Nenhum item adicionado.
+        </p>
       )}
 
       <Button
@@ -65,6 +64,7 @@ const Drugs = () => {
         <Plus />
         Adicionar Item
       </Button>
+      <ErrorMessage message={errors?.items?.message} />
     </div>
   );
 };
