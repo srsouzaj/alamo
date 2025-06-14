@@ -2,10 +2,14 @@
 import useConsultarRotinas from "../Hooks/useConsultarRotinas";
 
 const RoutinesList = () => {
-  const { routines } = useConsultarRotinas();
+  const { routines, loadingRoutine } = useConsultarRotinas();
 
   return (
     <section className="flex flex-col gap-2 overflow-y-auto pr-2 h-3/4">
+      {loadingRoutine && <h1>Carregando</h1>}
+
+      {!routines && <h1>Não há rotinas</h1>}
+
       {routines.map((routine, index) => {
         return (
           <div

@@ -7,14 +7,14 @@ import { useQuery } from "@tanstack/react-query";
 const useConsultarRotinas = () => {
   const { routines: services } = useServices();
 
-  const { data, isLoading: loadingDocument } = useQuery({
+  const { data, isLoading: loadingRoutine } = useQuery({
     queryKey: ["consultar-documentos"],
     queryFn: () => services.consultarRotinas(),
   });
 
   return {
     routines: data ?? ([] as OutRoutine[]),
-    loadingDocument,
+    loadingRoutine,
   };
 };
 
