@@ -1,6 +1,10 @@
-# 🧪 Álamo
+<p align="center">
+  <img alt="logo" src="https://media.licdn.com/dms/image/v2/D4E0BAQG8oQuCUu_kSw/company-logo_200_200/B4EZdgFUr7HsAc-/0/1749663698195?e=1755129600&v=beta&t=JjsZc_MuxiEKdXaW8VhQSSTD8vpSda5XclQRYTdkpvg" />
+</p>
 
-**Álamo** é uma aplicação web desenvolvida com foco na organização de rotinas laboratoriais, utilizando tecnologias modernas do ecossistema React. O projeto visa oferecer uma interface amigável, responsiva e altamente performática para facilitar a gestão de processos em ambientes laboratoriais.
+# 🧪 Alamo
+
+**Alamo** é uma aplicação web desenvolvida com foco na organização de rotinas laboratoriais, utilizando tecnologias modernas do ecossistema React. O projeto visa oferecer uma interface amigável, responsiva e altamente performática para facilitar a gestão de processos em ambientes laboratoriais.
 
 ## 📌 Visão Geral
 
