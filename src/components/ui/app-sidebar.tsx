@@ -59,7 +59,7 @@ export function AppSidebar() {
                   <SidebarMenuButton asChild>
                     <a href={item.url}>
                       <item.icon width={24} height={24} />
-                      <span className="font-semibold text-sm text-[var(--primaryTypography)]">
+                      <span className="font-semibold text-sm text-[var(--primary)]">
                         {item.title}
                       </span>
                     </a>
@@ -70,7 +70,7 @@ export function AppSidebar() {
           </SidebarGroupContent>
           <SidebarGroupLabel>
             <SquarePen width={24} height={24} />
-            <span className="font-semibold text-sm text-[var(--primaryTypography)]">
+            <span className="font-semibold text-sm text-[var(--primary)]">
               Cadastro
             </span>
           </SidebarGroupLabel>
