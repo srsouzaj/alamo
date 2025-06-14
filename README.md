@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="logo" width="80px" height="80px" src="https://media.licdn.com/dms/image/v2/D4E0BAQG8oQuCUu_kSw/company-logo_200_200/B4EZdgFUr7HsAc-/0/1749663698195?e=1755129600&v=beta&t=JjsZc_MuxiEKdXaW8VhQSSTD8vpSda5XclQRYTdkpvg" />
+  <img alt="logo" width="120px" height="120px" src="https://media.licdn.com/dms/image/v2/D4E0BAQG8oQuCUu_kSw/company-logo_200_200/B4EZdgFUr7HsAc-/0/1749663698195?e=1755129600&v=beta&t=JjsZc_MuxiEKdXaW8VhQSSTD8vpSda5XclQRYTdkpvg" />
 </p>
 
 ## **💻** Projeto
