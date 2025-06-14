@@ -2,9 +2,9 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMemo, useCallback, useState } from "react";
-import { OutRoutineSchema } from "../Types/schema/routines.schema";
-import { OutRoutineTypes } from "../Types/interface/routines.interface";
-import transformInitialValues from "../utils/defaultValues";
+import { OutRoutineSchema } from "../components/Form/Types/schema/routines.schema";
+import { OutRoutineTypes } from "../components/Form/Types/interface/routines.interface";
+import transformInitialValues from "../components/Form/utils/defaultValues";
 import useCriarRotina from "@/app/pages/Produto/Hooks/useCriarRotina";
 
 export const useOutRoutineForm = () => {
@@ -33,9 +33,9 @@ export const useOutRoutineForm = () => {
     try {
       console.log("OutRoutine:", data);
       criarRotina(data);
-      methods.reset();
+      //   methods.reset();
       await new Promise((res) => setTimeout(res, 300));
-      handleModal(false);
+      //   handleModal(false);
     } catch (err) {
       console.error("Erro ao salvar rotina:", err);
     }

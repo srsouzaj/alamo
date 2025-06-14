@@ -7,6 +7,7 @@ interface ErrorMessageProps {
 }
 
 const ErrorMessage: FC<ErrorMessageProps> = ({ message }) => {
+  if (!message) return;
   return (
     <div className="min-h-[20px] transition-all duration-300 ease-in-out">
       <span

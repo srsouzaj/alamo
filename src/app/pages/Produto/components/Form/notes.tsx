@@ -1,6 +1,6 @@
 import { useFormContext } from "react-hook-form";
-import { Label } from "../label";
-import { Textarea } from "../textarea";
+import { Label } from "../../../../../components/ui/label";
+import { Textarea } from "../../../../../components/ui/textarea";
 import { OutRoutine } from "@/services/apiServices/Routine/Models";
 import ErrorMessage from "@/components/ErrorMessage";
 
