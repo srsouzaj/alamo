@@ -1,9 +1,10 @@
 import Plus from "@/assets/vectors/plus.svg";
 import RoutinesList from "./pages/Produto/components/routinesList";
+import SearchBar from "./pages/Produto/components/searchBar";
 
 export default function Home() {
   return (
-    <main className="h-screen w-full">
+    <main className="h-screen w-full pb-10">
       <section className="flex justify-between">
         <h1 className="text-[28px] font-semibold text-[var(--primary)]">
           Gestão de rotinas de laboratório
@@ -13,6 +14,8 @@ export default function Home() {
           Adicionar Rotina
         </span>
       </section>
+      <SearchBar />
+      <div className="w-full h-px bg-[#E4E4E4] my-3" />
       <RoutinesList />
     </main>
   );

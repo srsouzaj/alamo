@@ -5,7 +5,7 @@ const RoutinesList = () => {
   const { routines } = useConsultarRotinas();
 
   return (
-    <section className="flex flex-col gap-2 overflow-y-auto px-2 max-h-[600px]">
+    <section className="flex flex-col gap-2 overflow-y-auto pr-2 h-3/4">
       {routines.map((routine, index) => {
         return (
           <div
