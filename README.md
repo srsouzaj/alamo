@@ -8,7 +8,7 @@
 - 💅 **Tailwind CSS 4** para estilização utilitária
 - ⚙️ Integração com **JSON Server** para simular APIs REST
 - 🧠 **React Query**, **Zod** e **React Hook Form** para gerenciamento de estado, validação e manipulação de formulários
-- 💡 Projetado com componentes acessíveis utilizando **Radix UI**
+- 💡 Projetado com componentes acessíveis utilizando **ShadCN UI**
 
 ---
 
@@ -24,6 +24,10 @@
 | [JSON Server](https://github.com/typicode/json-server) | Mock de API REST local                             |
 
 ---
+
+## 🧪 Teste de Responsividade
+
+Recomenda-se o uso da ferramenta Responsively App para verificar o comportamento do layout em múltiplas resoluções de tela. Essa etapa é fundamental para garantir uma experiência consistente em diferentes dispositivos.
 
 ## 📦 Instalação e Execução
 
