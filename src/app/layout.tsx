@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { blink } from "@/fonts/blink";
-import { SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/ui/app-sidebar";
 import Navbar from "@/components/Navbar";
+import Providers from "@/Providers";
 
 export const metadata: Metadata = {
   title: "Alamo",
@@ -18,14 +17,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${blink.variable}`}>
       <body className="vsc-initialized font-blink">
-        <SidebarProvider>
-          <AppSidebar />
+        <Providers>
           <div className="container">
             <Navbar />
             {/* <SidebarTrigger /> */}
             {children}
           </div>
-        </SidebarProvider>
+        </Providers>
       </body>
     </html>
   );
