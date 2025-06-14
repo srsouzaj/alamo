@@ -1,5 +1,6 @@
 "use client";
-import { AppSidebar } from "@/components/ui/app-sidebar";
+
+import SidebarItemsMenu from "@/components/ui/Sidebar/app-sidebar";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
@@ -8,7 +9,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
   return (
     <QueryClientProvider client={queryClient}>
       <SidebarProvider>
-        <AppSidebar />
+        <SidebarItemsMenu />
         {children}
       </SidebarProvider>
     </QueryClientProvider>

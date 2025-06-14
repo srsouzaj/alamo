@@ -16,9 +16,9 @@ const Navbar = () => {
         </Link>
         <Link
           href={"/"}
-          className="bg-[var(--secondary)] hover:bg-[var(--tertiary)] transition-colors duration-200 font-semibold flex w-fit text-white items-center justify-center gap-1 px-2 py-1 rounded"
+          className="bg-[var(--secondary)] hover:bg-[var(--tertiary)] transition-colors duration-200 font-semibold flex w-fit h-6 text-xs text-white items-center justify-center gap-1 px-2 py-1 rounded-md"
         >
-          <Task width={18} height={18} />
+          <Task width={14} height={14} />
           Tarefas
         </Link>
         <aside className="flex gap-2 items-center">

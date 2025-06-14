@@ -1,4 +1,3 @@
-// src/fonts/blink.ts
 import localFont from "next/font/local";
 
 export const blink = localFont({

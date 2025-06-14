@@ -1,29 +1,20 @@
-interface SubItem {
-  nome: string;
-  quantidade: string;
+export interface Item {
+  name: string;
+  quantity?: string;
+  subitems?: Item[];
 }
 
-interface Item {
-  nome: string;
-  quantidade?: string;
-  subitens?: SubItem[];
-}
-
-interface Macronutrients {
-  CHO: string;
-  PTN: string;
-  LIP: string;
-}
-
-interface Observation {
-  nota: string;
+export interface Macronutrient {
+  name: string;
+  quantity: string;
 }
 
 export interface OutRoutine {
-  hora: string;
-  titulo: string;
-  itens: Item[];
-  observacoes: (string | Observation)[];
-  macronutrientes: Macronutrients;
-  intensidade: string;
+  id: number;
+  hour: string;
+  title: string;
+  items: Item[];
+  notes: string;
+  macronutrients: Macronutrient[];
+  intensity: string;
 }

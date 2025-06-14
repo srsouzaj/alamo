@@ -5,16 +5,16 @@ import { OutRoutine } from "@/services/apiServices/Routine/Models";
 import { useQuery } from "@tanstack/react-query";
 
 const useConsultarRotinas = () => {
-  const { routines } = useServices();
+  const { routines: services } = useServices();
 
-  const { data, isLoading: loadingDocument } = useQuery({
+  const { data, isLoading: loadingRoutine } = useQuery({
     queryKey: ["consultar-documentos"],
-    queryFn: () => routines.consultarRotinas(),
+    queryFn: () => services.consultarRotinas(),
   });
 
   return {
-    routine: data ?? ([] as OutRoutine[]),
-    loadingDocument,
+    routines: data ?? ([] as OutRoutine[]),
+    loadingRoutine,
   };
 };
 
