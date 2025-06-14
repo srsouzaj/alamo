@@ -1,5 +1,5 @@
 const apiRoutes = {
-  procedures: {
+  Routines: {
     url: () => "/",
     byId: { url: (id: string) => `/${id}` },
   },

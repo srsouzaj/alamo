@@ -1,71 +1,83 @@
 [{
-        "time": "10:00",
-        "title": "Morning Procedure",
-        "items": [
-            "Solution A – 5 mL",
-            "Compound B or C – 250 mg",
-            "Mediolab Reagent – 2 drops",
-            "Catalyst (CATPURE) – 5 mg"
+        "hora": "10:00",
+        "titulo": "Procedimento Matinal",
+        "itens": [
+            { "nome": "Solução A", "quantidade": "5 mL" },
+            { "nome": "Composto B ou C", "quantidade": "250 mg" },
+            { "nome": "Reagente Mediolab", "quantidade": "2 gotas" },
+            {
+                "nome": "Catalisador",
+                "subitens": [{ "nome": "CATPURE", "quantidade": "5 mg" }]
+            }
         ],
-        "notes": ["Mix in sterile container", "Perform in laminar flow"],
-        "macronutrients": {
+        "observacoes": [
+            "Misturar em recipiente estéril",
+            { "nota": "Executar em fluxo laminar" }
+        ],
+        "macronutrientes": {
             "CHO": "26g",
-            "PRO": "25g",
-            "FAT": "1.3g"
+            "PTN": "25g",
+            "LIP": "1.3g"
         },
-        "intensity": "215 mAU"
+        "intensidade": "215 mAU"
     },
     {
-        "time": "13:00",
-        "title": "Midday Procedure",
-        "items": [
-            "Solution B – 10 mL",
-            "Compound D or E – 150 mg",
-            "ClearMix Reagent – 3 drops",
-            "Stabilizer (STABILAB) – 2 mg"
+        "hora": "13:00",
+        "titulo": "Procedimento de Meio-dia",
+        "itens": [
+            { "nome": "Solução B", "quantidade": "10 mL" },
+            { "nome": "Composto D ou E", "quantidade": "150 mg" },
+            { "nome": "Reagente ClearMix", "quantidade": "3 gotas" },
+            { "nome": "Estabilizante (STABILAB)", "quantidade": "2 mg" }
         ],
-        "notes": ["Shake for 3 minutes before applying"],
-        "macronutrients": {
+        "observacoes": ["Agitar por 3 minutos antes de aplicar"],
+        "macronutrientes": {
             "CHO": "26g",
-            "PRO": "25g",
-            "FAT": "1.3g"
+            "PTN": "25g",
+            "LIP": "1.3g"
         },
-        "intensity": "189 mAU"
+        "intensidade": "189 mAU"
     },
     {
-        "time": "16:30",
-        "title": "Thermal Test",
-        "items": [
-            "Thermal Solution – 7 mL",
-            "Agent B or C – 300 mg",
-            "Neutralizer Drops – 2 drops",
-            "Temperature Control – 1 unit",
-            "Conductor (HEATPULSE) – 6 mg"
+        "hora": "16:30",
+        "titulo": "Teste Térmico",
+        "itens": [
+            { "nome": "Solução Térmica", "quantidade": "7 mL" },
+            { "nome": "Agente B ou C", "quantidade": "300 mg" },
+            { "nome": "Gotas de Neutralizante", "quantidade": "2 gotas" },
+            { "nome": "Controle de Temperatura", "quantidade": "1 unidade" },
+            {
+                "nome": "Condutor",
+                "subitens": [{ "nome": "HEATPULSE", "quantidade": "6 mg" }]
+            }
         ],
-        "notes": ["Use reinforced nitrile gloves"],
-        "macronutrients": {
+        "observacoes": ["Usar luvas nitrílicas reforçadas"],
+        "macronutrientes": {
             "CHO": "26g",
-            "PRO": "25g",
-            "FAT": "1.3g"
+            "PTN": "25g",
+            "LIP": "1.3g"
         },
-        "intensity": "202 mAU"
+        "intensidade": "202 mAU"
     },
     {
-        "time": "18:00",
-        "title": "Cycle Finalization",
-        "items": [
-            "Washing Solution – 8 mL",
-            "Compound X or Z – 200 mg",
-            "Final Neutralizer – 1 drop",
-            "Drying Agent – 0.2 mL",
-            "Catalyst (ENDO-CLEAN) – 4 mg"
+        "hora": "18:00",
+        "titulo": "Finalização do Ciclo",
+        "itens": [
+            { "nome": "Solução de Lavagem", "quantidade": "8 mL" },
+            { "nome": "Composto X ou Z", "quantidade": "200 mg" },
+            { "nome": "Neutralizante Final", "quantidade": "1 gota" },
+            { "nome": "Agente Secativo", "quantidade": "0.2 mL" },
+            {
+                "nome": "Catalisador",
+                "subitens": [{ "nome": "ENDO-CLEAN", "quantidade": "4 mg" }]
+            }
         ],
-        "notes": ["Store sample at 4°C"],
-        "macronutrients": {
+        "observacoes": ["Armazenar amostra a 4 °C"],
+        "macronutrientes": {
             "CHO": "26g",
-            "PRO": "25g",
-            "FAT": "1.3g"
+            "PTN": "25g",
+            "LIP": "1.3g"
         },
-        "intensity": "210 mAU"
+        "intensidade": "210 mAU"
     }
 ]
