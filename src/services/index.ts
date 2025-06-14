@@ -1,5 +1,8 @@
+import { useRoutines } from "./apiServices/Routine/useRoutine";
+
 const useServices = () => {
-  return {};
+  const routines = new useRoutines();
+  return { routines };
 };
 
 export default useServices;

@@ -1,7 +1,7 @@
 const apiRoutes = {
   Routines: {
-    url: () => "/",
-    byId: { url: (id: string) => `/${id}` },
+    url: () => "/routines",
+    byId: { url: (id: string) => `routines/${id}` },
   },
 };
 

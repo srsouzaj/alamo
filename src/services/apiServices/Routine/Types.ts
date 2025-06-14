@@ -1,8 +1,8 @@
 import { OutRoutine } from "./Models";
 
 interface IRoutineApiService {
-  consultarProcedimentoById(documentId: string): Promise<OutRoutine>;
-  consultarProcedimentos(): Promise<OutRoutine[]>;
+  consultarRotinaById(rotinaId: string): Promise<OutRoutine>;
+  consultarRotinas(): Promise<OutRoutine[]>;
 }
 
 export default IRoutineApiService;

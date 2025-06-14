@@ -1,11 +1,12 @@
 import { AxiosResponse } from "axios";
 import api from "../../api";
-import IDocumentApiService from "./Types";
+
 import { OutRoutine } from "./Models";
 import apiRoutes from "@/utils/apiRoutes";
+import IRoutineApiService from "./Types";
 
-export class useDocument implements IDocumentApiService {
-  async consultarProcedimentos(): Promise<OutRoutine[]> {
+export class useRoutines implements IRoutineApiService {
+  async consultarRotinas(): Promise<OutRoutine[]> {
     try {
       const data = await api.get<void, AxiosResponse<OutRoutine[]>>(
         apiRoutes.Routines.url()
@@ -16,10 +17,10 @@ export class useDocument implements IDocumentApiService {
     }
   }
 
-  async consultarProcedimentoById(documentId: string): Promise<OutRoutine> {
+  async consultarRotinaById(rotinaId: string): Promise<OutRoutine> {
     try {
       const data = await api.get<void, AxiosResponse<OutRoutine>>(
-        apiRoutes.Routines.byId.url(documentId)
+        apiRoutes.Routines.byId.url(rotinaId)
       );
       return data?.data ?? ({} as OutRoutine);
     } catch (e) {

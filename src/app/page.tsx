@@ -1,6 +1,12 @@
+"use client";
+
 import Plus from "@/assets/vectors/plus.svg";
+import useConsultarRotinas from "./pages/Produto/Hooks/useConsultarRotinas";
 
 export default function Home() {
+  const { routine } = useConsultarRotinas();
+
+  console.log(routine);
   return (
     <main>
       <section className="flex justify-between">
