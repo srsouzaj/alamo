@@ -10,7 +10,7 @@ const RoutinesList = () => {
         return (
           <div
             key={routine.id}
-            className={`p-3 rounded cursor-pointer border border-transparent hover:border-1 hover:border-[var(--Primary)] transition-all duration-200 ease-in-out ${
+            className={`p-3 rounded-md cursor-pointer border border-transparent hover:border-1 hover:border-[var(--Primary)] transition-all duration-200 ease-in-out ${
               index % 2 ? "bg-[var(--secondary-white)]" : "bg-white"
             }`}
           >

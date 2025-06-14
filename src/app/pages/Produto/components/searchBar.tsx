@@ -12,13 +12,13 @@ const SearchBar = () => {
         <Input placeholder="Buscar..." className="pl-8" />
       </div>
 
-      <Button className="px-4 py-1 bg-[var(--secondary)] flex gap-1 items-center rounded hover:bg-[var(--tertiary)] transition-colors duration-200 text-white font-semibold">
+      <Button className="px-4 py-1 bg-[var(--secondary)] flex gap-1 items-center rounded-md hover:bg-[var(--tertiary)] transition-colors duration-200 text-white font-semibold">
         Buscar
       </Button>
 
       <Button
         variant="secondary"
-        className=" px-4 py-1 bg-slate-900 hover:bg-slate-700 flex gap-1 items-center rounded  transition-colors duration-200 text-white font-semibold"
+        className=" px-4 py-1 bg-slate-900 hover:bg-slate-700 flex gap-1 items-center rounded-md transition-colors duration-200 text-white font-semibold"
       >
         Filtragem Avançada
       </Button>

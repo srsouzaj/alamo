@@ -55,8 +55,8 @@
                     "name": "Controle de Temperatura",
                     "quantity": "1 unidade",
                     "subitems": [{
-                        "name": "Condutor",
-                        "subitems": [{ "name": "HEATPULSE", "quantity": "6 mg" }]
+                        "name": "Condutor (HEATPULSE)",
+                        "quantity": "6 mg"
                     }]
                 }
             ],
@@ -80,8 +80,8 @@
                     "name": "Agente Secativo",
                     "quantity": "0.2 mL",
                     "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
+                        "name": "Catalisador(ENDO-CLEAN)",
+                        "quantity": "4 mg"
                     }]
                 }
             ],
@@ -105,8 +105,8 @@
                     "name": "Agente Secativo",
                     "quantity": "0.2 mL",
                     "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
+                        "name": "Catalisador(ENDO-CLEAN)",
+                        "quantity": "4 mg"
                     }]
                 }
             ],
@@ -130,8 +130,8 @@
                     "name": "Agente Secativo",
                     "quantity": "0.2 mL",
                     "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
+                        "name": "Catalisador(ENDO-CLEAN)",
+                        "quantity": "4 mg"
                     }]
                 }
             ],
@@ -155,8 +155,8 @@
                     "name": "Agente Secativo",
                     "quantity": "0.2 mL",
                     "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
+                        "name": "Catalisador(ENDO-CLEAN)",
+                        "quantity": "4 mg"
                     }]
                 }
             ],
@@ -180,83 +180,8 @@
                     "name": "Agente Secativo",
                     "quantity": "0.2 mL",
                     "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 9,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 10,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 11,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador",
-                        "subitems": [{ "name": "ENDO-CLEAN", "quantity": "4 mg" }]
+                        "name": "Catalisador(ENDO-CLEAN)",
+                        "quantity": "4 mg"
                     }]
                 }
             ],
