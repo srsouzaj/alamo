@@ -1,10 +1,10 @@
-export interface Item {
+export interface OutDrugs {
   name: string;
   quantity?: string;
-  subitems?: Item[];
+  subitems?: OutDrugs[];
 }
 
-export interface Macronutrient {
+export interface OutMacronutrient {
   name: string;
   quantity: string;
 }
@@ -13,8 +13,8 @@ export interface OutRoutine {
   id: number;
   hour: string;
   title: string;
-  items: Item[];
+  items: OutDrugs[];
   notes: string;
-  macronutrients: Macronutrient[];
+  macronutrients: OutMacronutrient[];
   intensity: string;
 }

@@ -3,6 +3,7 @@ import React from "react";
 import useRoutineSearch from "../Hooks/useRoutineSearch";
 import RoutinesCardList from "./routinesCardList";
 import SearchBar from "./searchBar";
+import Divider from "@/components/divider";
 
 const Routines = () => {
   const {
@@ -20,7 +21,7 @@ const Routines = () => {
         onSearch={handleSearch}
       />
 
-      <div className="w-full h-px bg-[#E4E4E4] my-3" />
+      <Divider />
 
       <RoutinesCardList routines={filteredRoutines} loading={loadingRoutine} />
     </>

@@ -1,197 +1,359 @@
 {
-    "routines": [{
-            "id": 1,
-            "hour": "10:00",
-            "title": "Procedimento Matinal",
-            "items": [
-                { "name": "Solução A", "quantity": "5 mL" },
-                { "name": "Composto B ou C", "quantity": "250 mg" },
-                { "name": "Reagente Mediolab", "quantity": "2 gotas" },
-                {
-                    "name": "Observação: Misturar em recipiente estéril",
-                    "subitems": [{ "name": "Catalisador(CATPURE)", "quantity": "5 mg" }]
-                }
-            ],
-            "notes": "Executar em fluxo laminar",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "215 mAU"
+  "routines": [
+    {
+      "id": "1",
+      "hour": "10:00",
+      "title": "Procedimento Matinal",
+      "items": [
+        {
+          "name": "Solução A",
+          "quantity": "5 mL"
         },
         {
-            "id": 2,
-            "hour": "13:00",
-            "title": "Procedimento de Meio-dia",
-            "items": [
-                { "name": "Solução B", "quantity": "10 mL" },
-                { "name": "Composto D ou E", "quantity": "150 mg" },
-                {
-                    "name": "Reagente ClearMix",
-                    "quantity": "3 gotas",
-                    "subitems": [
-                        { "name": "Estabilizante (STABILAB)", "quantity": "2 mg" }
-                    ]
-                }
-            ],
-            "notes": "Agitar por 3 minutos antes de aplicar",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "189 mAU"
+          "name": "Composto B ou C",
+          "quantity": "250 mg"
         },
         {
-            "id": 3,
-            "hour": "16:30",
-            "title": "Teste Térmico",
-            "items": [
-                { "name": "Solução Térmica", "quantity": "7 mL" },
-                { "name": "Agente B ou C", "quantity": "300 mg" },
-                { "name": "Gotas de Neutralizante", "quantity": "2 gotas" },
-                {
-                    "name": "Controle de Temperatura",
-                    "quantity": "1 unidade",
-                    "subitems": [{
-                        "name": "Condutor (HEATPULSE)",
-                        "quantity": "6 mg"
-                    }]
-                }
-            ],
-            "notes": "Usar luvas nitrílicas reforçadas",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "202 mAU"
+          "name": "Reagente Mediolab",
+          "quantity": "2 gotas"
         },
         {
-            "id": 4,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador(ENDO-CLEAN)",
-                        "quantity": "4 mg"
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 5,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador(ENDO-CLEAN)",
-                        "quantity": "4 mg"
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 6,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador(ENDO-CLEAN)",
-                        "quantity": "4 mg"
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 7,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador(ENDO-CLEAN)",
-                        "quantity": "4 mg"
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
-        },
-        {
-            "id": 8,
-            "hour": "18:00",
-            "title": "Finalização do Ciclo",
-            "items": [
-                { "name": "Solução de Lavagem", "quantity": "8 mL" },
-                { "name": "Composto X ou Z", "quantity": "200 mg" },
-                { "name": "Neutralizante Final", "quantity": "1 gota" },
-                {
-                    "name": "Agente Secativo",
-                    "quantity": "0.2 mL",
-                    "subitems": [{
-                        "name": "Catalisador(ENDO-CLEAN)",
-                        "quantity": "4 mg"
-                    }]
-                }
-            ],
-            "notes": "Armazenar amostra a 4°C",
-            "macronutrients": [
-                { "name": "CHO", "quantity": "26g" },
-                { "name": "PTN", "quantity": "25g" },
-                { "name": "LIP", "quantity": "1.3g" }
-            ],
-            "intensity": "210 mAU"
+          "name": "Observação: Misturar em recipiente estéril",
+          "subitems": [
+            {
+              "name": "Catalisador(CATPURE)",
+              "quantity": "5 mg"
+            }
+          ]
         }
-    ]
+      ],
+      "notes": "Executar em fluxo laminar",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "215 mAU"
+    },
+    {
+      "id": "2",
+      "hour": "13:00",
+      "title": "Procedimento de Meio-dia",
+      "items": [
+        {
+          "name": "Solução B",
+          "quantity": "10 mL"
+        },
+        {
+          "name": "Composto D ou E",
+          "quantity": "150 mg"
+        },
+        {
+          "name": "Reagente ClearMix",
+          "quantity": "3 gotas",
+          "subitems": [
+            {
+              "name": "Estabilizante (STABILAB)",
+              "quantity": "2 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Agitar por 3 minutos antes de aplicar",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "189 mAU"
+    },
+    {
+      "id": "3",
+      "hour": "16:30",
+      "title": "Teste Térmico",
+      "items": [
+        {
+          "name": "Solução Térmica",
+          "quantity": "7 mL"
+        },
+        {
+          "name": "Agente B ou C",
+          "quantity": "300 mg"
+        },
+        {
+          "name": "Gotas de Neutralizante",
+          "quantity": "2 gotas"
+        },
+        {
+          "name": "Controle de Temperatura",
+          "quantity": "1 unidade",
+          "subitems": [
+            {
+              "name": "Condutor (HEATPULSE)",
+              "quantity": "6 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Usar luvas nitrílicas reforçadas",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "202 mAU"
+    },
+    {
+      "id": "4",
+      "hour": "18:00",
+      "title": "Finalização do Ciclo",
+      "items": [
+        {
+          "name": "Solução de Lavagem",
+          "quantity": "8 mL"
+        },
+        {
+          "name": "Composto X ou Z",
+          "quantity": "200 mg"
+        },
+        {
+          "name": "Neutralizante Final",
+          "quantity": "1 gota"
+        },
+        {
+          "name": "Agente Secativo",
+          "quantity": "0.2 mL",
+          "subitems": [
+            {
+              "name": "Catalisador(ENDO-CLEAN)",
+              "quantity": "4 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Armazenar amostra a 4°C",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "210 mAU"
+    },
+    {
+      "id": "5",
+      "hour": "18:00",
+      "title": "Finalização do Ciclo",
+      "items": [
+        {
+          "name": "Solução de Lavagem",
+          "quantity": "8 mL"
+        },
+        {
+          "name": "Composto X ou Z",
+          "quantity": "200 mg"
+        },
+        {
+          "name": "Neutralizante Final",
+          "quantity": "1 gota"
+        },
+        {
+          "name": "Agente Secativo",
+          "quantity": "0.2 mL",
+          "subitems": [
+            {
+              "name": "Catalisador(ENDO-CLEAN)",
+              "quantity": "4 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Armazenar amostra a 4°C",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "210 mAU"
+    },
+    {
+      "id": "6",
+      "hour": "18:00",
+      "title": "Finalização do Ciclo",
+      "items": [
+        {
+          "name": "Solução de Lavagem",
+          "quantity": "8 mL"
+        },
+        {
+          "name": "Composto X ou Z",
+          "quantity": "200 mg"
+        },
+        {
+          "name": "Neutralizante Final",
+          "quantity": "1 gota"
+        },
+        {
+          "name": "Agente Secativo",
+          "quantity": "0.2 mL",
+          "subitems": [
+            {
+              "name": "Catalisador(ENDO-CLEAN)",
+              "quantity": "4 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Armazenar amostra a 4°C",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "210 mAU"
+    },
+    {
+      "id": "7",
+      "hour": "18:00",
+      "title": "Finalização do Ciclo",
+      "items": [
+        {
+          "name": "Solução de Lavagem",
+          "quantity": "8 mL"
+        },
+        {
+          "name": "Composto X ou Z",
+          "quantity": "200 mg"
+        },
+        {
+          "name": "Neutralizante Final",
+          "quantity": "1 gota"
+        },
+        {
+          "name": "Agente Secativo",
+          "quantity": "0.2 mL",
+          "subitems": [
+            {
+              "name": "Catalisador(ENDO-CLEAN)",
+              "quantity": "4 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Armazenar amostra a 4°C",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "210 mAU"
+    },
+    {
+      "id": "8",
+      "hour": "18:00",
+      "title": "Finalização do Ciclo",
+      "items": [
+        {
+          "name": "Solução de Lavagem",
+          "quantity": "8 mL"
+        },
+        {
+          "name": "Composto X ou Z",
+          "quantity": "200 mg"
+        },
+        {
+          "name": "Neutralizante Final",
+          "quantity": "1 gota"
+        },
+        {
+          "name": "Agente Secativo",
+          "quantity": "0.2 mL",
+          "subitems": [
+            {
+              "name": "Catalisador(ENDO-CLEAN)",
+              "quantity": "4 mg"
+            }
+          ]
+        }
+      ],
+      "notes": "Armazenar amostra a 4°C",
+      "macronutrients": [
+        {
+          "name": "CHO",
+          "quantity": "26g"
+        },
+        {
+          "name": "PTN",
+          "quantity": "25g"
+        },
+        {
+          "name": "LIP",
+          "quantity": "1.3g"
+        }
+      ],
+      "intensity": "210 mAU"
+    }
+  ]
 }

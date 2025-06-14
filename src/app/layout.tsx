@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Providers from "@/Providers";
-import { SidebarTrigger } from "@/components/ui/sidebar";
 
 export const metadata: Metadata = {
   title: "Alamo",
@@ -20,7 +19,6 @@ export default function RootLayout({
         <Providers>
           <div className="container h-full">
             <Navbar />
-            {/* <SidebarTrigger /> */}
             {children}
           </div>
         </Providers>
