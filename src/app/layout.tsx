@@ -16,9 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={`${blink.variable}`}>
-      <body className="vsc-initialized font-blink">
+      <body className="vsc-initialized font-blink overflow-hidden">
         <Providers>
-          <div className="container">
+          <div className="container h-full">
             <Navbar />
             {/* <SidebarTrigger /> */}
             {children}
