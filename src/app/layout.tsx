@@ -6,6 +6,9 @@ import Providers from "@/Providers";
 export const metadata: Metadata = {
   title: "Alamo",
   description: "You can just do things",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
