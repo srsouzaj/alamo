@@ -4,7 +4,7 @@
 
 ## **💻** Projeto
 
-**Alamo** é uma aplicação web desenvolvida com foco na organização de rotinas laboratoriais, utilizando tecnologias modernas do ecossistema React. O projeto visa oferecer uma interface amigável, responsiva e altamente performática para facilitar a gestão de processos em ambientes laboratoriais.
+**Alamo** é uma aplicação web desenvolvida com foco na organização de rotinas laboratoriais, utilizando tecnologias modernas do ecossistema React. O projeto visa oferecer uma interface amigável, responsiva e altamente performática para facilitar a gestão de processos em ambientes laboratoriais. Veja a demo [aqui](https://www.loom.com/share/3ddda42916334e6d8452e34dba9a781d?sid=31781f39-fdfe-4332-a8f5-79aca68df39e).
 
 ## 📌 Visão Geral
 
