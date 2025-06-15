@@ -1,5 +1,5 @@
 import Modal from "@/app/pages/Produto/components/Form/modal";
-import React from "react";
+import { memo } from "react";
 
 const HeaderRoutine = () => {
   return (
@@ -12,4 +12,4 @@ const HeaderRoutine = () => {
   );
 };
 
-export default React.memo(HeaderRoutine);
+export default memo(HeaderRoutine);

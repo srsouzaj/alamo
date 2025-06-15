@@ -3,7 +3,7 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Search from "@/assets/vectors/search.svg";
-import React, { ChangeEvent } from "react";
+import React, { ChangeEvent, memo } from "react";
 
 type Props = {
   value: string;
@@ -43,4 +43,4 @@ const SearchBar = ({ value, onChange, onSearch }: Props) => {
   );
 };
 
-export default React.memo(SearchBar);
+export default memo(SearchBar);

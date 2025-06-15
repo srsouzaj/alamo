@@ -3,6 +3,7 @@
 import SidebarItemsMenu from "@/components/ui/Sidebar/app-sidebar";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { memo } from "react";
 import { Toaster } from "sonner";
 
 const Providers = ({ children }: { children: React.ReactNode }) => {
@@ -18,4 +19,4 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
   );
 };
 
-export default Providers;
+export default memo(Providers);

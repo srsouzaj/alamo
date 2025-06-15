@@ -1,7 +1,7 @@
 "use client";
 
 import { OutRoutine } from "@/services/apiServices/Routine/Models";
-import React from "react";
+import { memo } from "react";
 
 interface RoutinesListProps {
   routines: OutRoutine[];
@@ -71,4 +71,4 @@ const RoutinesCardList = ({ routines, loading }: RoutinesListProps) => {
   );
 };
 
-export default React.memo(RoutinesCardList);
+export default memo(RoutinesCardList);

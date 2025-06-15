@@ -1,5 +1,6 @@
 import { DialogTrigger } from "@/components/ui/dialog";
 import Plus from "@/assets/vectors/plus.svg";
+import { memo } from "react";
 
 const Trigger = () => {
   return (
@@ -12,4 +13,4 @@ const Trigger = () => {
   );
 };
 
-export default Trigger;
+export default memo(Trigger);

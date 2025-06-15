@@ -1,6 +1,7 @@
 import FormAddRoutines from "@/app/pages/Produto/components/Form";
 import Trigger from "@/app/pages/Produto/components/Form/trigger";
 import { Dialog } from "@radix-ui/react-dialog";
+import { memo } from "react";
 
 const Modal = () => {
   return (
@@ -11,4 +12,4 @@ const Modal = () => {
   );
 };
 
-export default Modal;
+export default memo(Modal);

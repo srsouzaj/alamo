@@ -6,6 +6,7 @@ import Config from "@/assets/vectors/config.svg";
 
 import Link from "next/link";
 import { SidebarTrigger } from "../ui/sidebar";
+import { memo } from "react";
 
 const Navbar = () => {
   return (
@@ -41,4 +42,4 @@ const Navbar = () => {
     </nav>
   );
 };
-export default Navbar;
+export default memo(Navbar);

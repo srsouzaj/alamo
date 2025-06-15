@@ -12,6 +12,7 @@ import {
 } from "../../../../../components/ui/select";
 import { OutRoutine } from "@/services/apiServices/Routine/Models";
 import ErrorMessage from "@/components/ErrorMessage";
+import { memo } from "react";
 
 const Macro = () => {
   const {
@@ -111,4 +112,4 @@ const Macro = () => {
   );
 };
 
-export default Macro;
+export default memo(Macro);

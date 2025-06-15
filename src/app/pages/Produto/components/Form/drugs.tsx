@@ -5,6 +5,7 @@ import { Label } from "../../../../../components/ui/label";
 import Plus from "@/assets/vectors/plus.svg";
 import { OutRoutine } from "@/services/apiServices/Routine/Models";
 import ErrorMessage from "@/components/ErrorMessage";
+import { memo } from "react";
 
 const Drugs = () => {
   const {
@@ -68,4 +69,4 @@ const Drugs = () => {
     </div>
   );
 };
-export default Drugs;
+export default memo(Drugs);

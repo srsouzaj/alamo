@@ -3,6 +3,7 @@ import { Input } from "../../../../../components/ui/input";
 import { Label } from "../../../../../components/ui/label";
 import { OutRoutine } from "@/services/apiServices/Routine/Models";
 import ErrorMessage from "@/components/ErrorMessage";
+import { memo } from "react";
 
 const Description = () => {
   const {
@@ -46,4 +47,4 @@ const Description = () => {
   );
 };
 
-export default Description;
+export default memo(Description);

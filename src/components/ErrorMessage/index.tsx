@@ -1,6 +1,6 @@
 "use client";
 
-import { FC } from "react";
+import { FC, memo } from "react";
 
 interface ErrorMessageProps {
   message?: string;
@@ -23,4 +23,4 @@ const ErrorMessage: FC<ErrorMessageProps> = ({ message }) => {
   );
 };
 
-export default ErrorMessage;
+export default memo(ErrorMessage);

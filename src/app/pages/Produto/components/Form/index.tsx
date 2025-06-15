@@ -16,6 +16,7 @@ import Drugs from "./drugs";
 import Macro from "./macro";
 import Notes from "./notes";
 import { useFormModalRotina } from "../../Hooks/useFormModalRotina";
+import React, { memo } from "react";
 
 const FormAddRoutines = () => {
   const { methods, handleSubmit, isSubmitting, onSubmit } =
@@ -30,7 +31,7 @@ const FormAddRoutines = () => {
               Adicionar nova rotina
             </DialogTitle>
             <DialogDescription className="text-[var(--primary)] text-md font-thin pb-3 ">
-              Adicione uma nova rotina para Marcelo Cavalcante
+              Adicione uma nova rotina para <b>Marcelo Cavalcante</b>
             </DialogDescription>
           </DialogHeader>
 
@@ -66,4 +67,4 @@ const FormAddRoutines = () => {
   );
 };
 
-export default FormAddRoutines;
+export default memo(FormAddRoutines);

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import { memo } from "react";
 import useRoutineSearch from "../Hooks/useRoutineSearch";
 import RoutinesCardList from "./routinesCardList";
 import SearchBar from "./searchBar";
@@ -28,4 +28,4 @@ const Routines = () => {
   );
 };
 
-export default React.memo(Routines);
+export default memo(Routines);
