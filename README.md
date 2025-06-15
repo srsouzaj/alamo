@@ -24,7 +24,7 @@
 | [Tailwind CSS](https://tailwindcss.com/)               | Utilitário para estilização altamente customizável |
 | [React Query](https://tanstack.com/query)              | Gerenciamento assíncrono e cache de dados          |
 | [Zod](https://zod.dev/)                                | Validação de esquemas com TypeScript               |
-| [Radix UI](https://www.radix-ui.com/)                  | Componentes acessíveis e não opinativos            |
+| [SHADCN UI](https://www.radix-ui.com/)                 | Componentes acessíveis e não opinativos            |
 | [JSON Server](https://github.com/typicode/json-server) | Mock de API REST local                             |
 
 ---
